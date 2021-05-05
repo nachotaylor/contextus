@@ -4,8 +4,6 @@ namespace App\Database;
 
 use mysqli;
 
-require_once 'config.php';
-
 class DBConnection
 {
     private static $instance;

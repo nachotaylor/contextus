@@ -58,7 +58,7 @@ class Branch
         if (!$this->validateCoordinates($data)) {
             throw new \Exception('Invalid coordinates');
         }
-        if (!isset($data['quantity']) || !is_integer($data['quantity']) || $data['quantity'] < 1) {
+        if (!isset($data['quantity']) || $data['quantity'] < 0) {
             throw new \Exception('Invalid quantity');
         }
         $db = DBConnection::getInstance();

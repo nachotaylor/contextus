@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":322:{a:2:{s:7:"defects";a:2:{s:47:"App\Tests\BranchModelTest::testGetValidBranches";i:4;s:66:"App\Tests\BranchModelTest::testSentInvalidCoordinatesToGetBranches";i:4;}s:5:"times";a:2:{s:47:"App\Tests\BranchModelTest::testGetValidBranches";d:0.003;s:66:"App\Tests\BranchModelTest::testSentInvalidCoordinatesToGetBranches";d:0;}}}
