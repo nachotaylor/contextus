@@ -41,7 +41,7 @@
                         <div class="form-group row">
                             <label for="quantity" class="col-md-2 col-form-label">Quantity</label>
                             <div class="col-md-2">
-                                <input type="number" class="form-control" id="quantity" name="quantity" min="0" required>
+                                <input type="number" class="form-control" id="quantity" name="quantity" min="1" required>
                             </div>
                             <label for="latitude" class="col-md-2 col-form-label">Latitude</label>
                             <div class="col-md-2">

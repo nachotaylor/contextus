@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\Branch;
+use Idearia\Logger;
 
 require_once "config.php";
 require_once MODELS . "BranchModel.php";
@@ -21,6 +22,7 @@ class ShopController
         try {
             return ['products' => $this->branch->getBranches($data), 'request' => $data];
         } catch (\Exception $exception) {
+            Logger::error($exception->getMessage());
             return ['error' => $exception->getMessage()];
         }
     }
@@ -31,6 +33,7 @@ class ShopController
             $this->branch->buy($product);
             return ['message' => 'Product selled'];
         } catch (\Exception $exception) {
+            Logger::error($exception->getMessage());
             return ['error' => $exception->getMessage()];
         }
     }

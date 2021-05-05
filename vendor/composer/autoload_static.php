@@ -34,6 +34,10 @@ class ComposerStaticInite38cf90aeb92141e07aa04661946fef0
             'Prophecy\\' => 9,
             'PhpParser\\' => 10,
         ),
+        'I' => 
+        array (
+            'Idearia\\' => 8,
+        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
@@ -75,6 +79,10 @@ class ComposerStaticInite38cf90aeb92141e07aa04661946fef0
         'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'Idearia\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/idearia/php-logger/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (

@@ -133,6 +133,49 @@
             "install-path": "../doctrine/instantiator"
         },
         {
+            "name": "idearia/php-logger",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Idearia/php-logger.git",
+                "reference": "8982e91b612cad8e112130e34d23152c1b65256c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Idearia/php-logger/zipball/8982e91b612cad8e112130e34d23152c1b65256c",
+                "reference": "8982e91b612cad8e112130e34d23152c1b65256c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "time": "2018-05-04T15:06:03+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Idearia\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Simple logger class for PHP with time tracking",
+            "homepage": "https://github.com/Idearia/php-logger",
+            "keywords": [
+                "log",
+                "logging",
+                "time-tracking"
+            ],
+            "support": {
+                "issues": "https://github.com/Idearia/php-logger/issues",
+                "source": "https://github.com/Idearia/php-logger/tree/master"
+            },
+            "install-path": "../idearia/php-logger"
+        },
+        {
             "name": "myclabs/deep-copy",
             "version": "1.10.2",
             "version_normalized": "1.10.2.0",

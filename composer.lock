@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "142e7780c14074979af30204ee1556c6",
+    "content-hash": "5801b10b4d204bcac463dbd51e379818",
     "packages": [
         {
             "name": "ballen/distical",
@@ -62,6 +62,46 @@
                 "source": "https://github.com/allebb/distical/tree/3.0.0"
             },
             "time": "2020-12-23T16:00:22+00:00"
+        },
+        {
+            "name": "idearia/php-logger",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Idearia/php-logger.git",
+                "reference": "8982e91b612cad8e112130e34d23152c1b65256c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Idearia/php-logger/zipball/8982e91b612cad8e112130e34d23152c1b65256c",
+                "reference": "8982e91b612cad8e112130e34d23152c1b65256c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Idearia\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "description": "Simple logger class for PHP with time tracking",
+            "homepage": "https://github.com/Idearia/php-logger",
+            "keywords": [
+                "log",
+                "logging",
+                "time-tracking"
+            ],
+            "support": {
+                "issues": "https://github.com/Idearia/php-logger/issues",
+                "source": "https://github.com/Idearia/php-logger/tree/master"
+            },
+            "time": "2018-05-04T15:06:03+00:00"
         }
     ],
     "packages-dev": [
